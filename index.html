@@ -27,4 +27,20 @@
 
     
     <h4>Advanced recipes</h4>
+
+
+    <!-- JavaScript to toggle -->
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const links = document.getElementById('menu-links');
+
+        toggle.addEventListener('click', () => {
+            // Toggle visibility
+        if (links.style.display === 'none') {
+            links.style.display = 'block';
+        } else {
+            links.style.display = 'none';
+        }
+        });
+    </script>
 </html>
