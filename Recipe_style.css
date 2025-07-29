@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #34f434;
+}
+
+h1 {
+  color: darkgreen;
+  font-size: 20;
+}
+
+h2 {
+    color: lightblue;
+    font-size: 16
+ }
+
+p {
+    color: blue;
+    font-size: 12 
+}
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
